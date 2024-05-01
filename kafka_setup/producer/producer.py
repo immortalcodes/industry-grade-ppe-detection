@@ -1,6 +1,6 @@
 import cv2
 from confluent_kafka import Producer
-from kafka_setup.producer.preprocessing_layer import FrameRateReducer
+from kafka_setup.producer.preprocessing_layer.pre_process import FrameRateReducer
 
 # Create an instance of FrameRateReducer
 reducer = FrameRateReducer(threshold=50)
